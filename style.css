@@ -66,8 +66,18 @@ body {
   display: flex;
 }
 
+.section-one-left {
+  flex: 1;
+}
+
+.header-logo {
+  font-family: "Roboto 500";
+  text-align: center;
+}
+
 .section-one-right {
   display: flex;
+  flex: 1;
 }
 
 .section-one-right ul {
@@ -75,9 +85,10 @@ body {
   display: flex;
   padding: 0;
   margin: 0;
+  gap: 1.5em;
 }
 
 a {
   text-decoration: none;
-  color: rgb(166, 166, 166);
+  color: #E5E7EB;
 }
