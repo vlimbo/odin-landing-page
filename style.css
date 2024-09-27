@@ -70,6 +70,70 @@ a {
   text-decoration: none;
   color: #E5E7EB;
 }
+.header-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #1F2037;
+  gap: 4em;
+  padding-bottom: 5em;
+}
+
+.header-section-one {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: .8em;
+}
+
+.logo {
+  font-size: 1.2em;
+  font-family: "Roboto 500", "Arial";
+  color: white;
+}
+
+.header-section-two {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.main-content {
+  flex: 1;
+}
+
+.main-content h1 {
+  font-family: "Roboto 900", "Arial";
+  color: #F9FAF8;
+  font-size: 2rem;
+  line-height: 0.9375;
+  margin-bottom: .1em;
+}
+
+.main-content p {
+  color: #e5e7eb;
+  margin-bottom: .4em;
+}
+
+.main-content button {
+  color: #F9FAF8;
+  background-color: #3882F6;
+  border: none;
+  padding: .3em 1em;
+  border-radius: 3px;
+}
+
+.image-container {
+  flex: 1;
+  height: 150px;
+}
+
+.image-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
 
 
 

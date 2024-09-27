@@ -6,69 +6,35 @@
     <title>Landing Page</title>
 
     <style>
-      .header-container {
+   
+       .main-container h2 {
+        text-align: center;
+        font-family: "Roboto 900", "Arial";
+        color: #1F2937;
+        padding: 1em;
+      }
+
+      .illustration-container {
+        display: flex;
+        justify-content: center;
+      }
+
+      .illustration {
         display: flex;
         flex-direction: column;
-        background-color: #1F2037;
-        gap: 4em;
-        padding-bottom: 5em;
-      }
-
-      .header-section-one {
-        display: flex;
-        width: 70%;
-        margin: 0 auto;
-        justify-content: space-between;
         align-items: center;
-        padding-top: .8em;
+
       }
 
-      .logo {
-        font-size: 1.2em;
-        font-family: "Roboto 500", "Arial";
-        color: white;
-      }
-
-      .header-section-two {
-        display: flex;
-        width: 70%;
-        margin: 0 auto;
-      }
-
-      .main-content {
-        flex: 1;
-      }
-
-      .main-content h1 {
-        font-family: "Roboto 900", "Arial";
-        color: #F9FAF8;
-        font-size: 2rem;
-        line-height: 0.9375;
-        margin-bottom: .1em;
-      }
-
-      .main-content p {
-        color: #e5e7eb;
-        margin-bottom: .4em;
-      }
-
-      .main-content button {
-        color: #F9FAF8;
-        background-color: #3882F6;
-        border: none;
-        padding: .3em 1em;
-        border-radius: 3px;
-      }
-
-      .image-container {
-        flex: 1;
-        height: 150px;
-      }
-
-      .image-container img {
-        height: 100%;
-        width: 100%;
+      .illustration-container img {
+        height: 100px;
+        width: 100px;
         object-fit: cover;
+      }
+
+      .illustration-container p {
+        max-width: 150px;
+        text-align: center;
       }
 
     </style>
@@ -94,6 +60,30 @@
         </div>
         <div class="image-container">
           <img src="assets/images/360_F_514204772_mT0EpTdZkScyiRPn2PInaKaqd88QGrzE.jpg" alt="Modern office with glass walls">
+        </div>
+      </div>
+    </div>
+    <div class="main-container">
+      <h2>Some random information.</h2>
+      <div class="illustration-container">
+        <div class="illustration">
+          <img src="assets/images/microsoft-365-bWL-c09Ys80-unsplash.jpg">
+          <p>this is some subtext under an illustration or image</p>
+        </div>
+
+        <div class="illustration">
+          <img src="assets/images/microsoft-365-bWL-c09Ys80-unsplash.jpg">
+          <p>this is some subtext under an illustration or image</p>
+        </div>
+
+        <div class="illustration">
+          <img src="assets/images/microsoft-365-bWL-c09Ys80-unsplash.jpg">
+          <p>this is some subtext under an illustration or image</p>
+        </div>
+
+        <div class="illustration">
+          <img src="assets/images/microsoft-365-bWL-c09Ys80-unsplash.jpg">
+          <p>this is some subtext under an illustration or image</p>
         </div>
       </div>
     </div>
