@@ -10,22 +10,65 @@
         display: flex;
         flex-direction: column;
         background-color: #1F2037;
-        height: 200px;
+        gap: 4em;
+        padding-bottom: 5em;
       }
 
       .header-section-one {
         display: flex;
-        height: 50px;
         width: 70%;
         margin: 0 auto;
         justify-content: space-between;
         align-items: center;
+        padding-top: .8em;
       }
 
       .logo {
         font-size: 1.2em;
         font-family: "Roboto 500", "Arial";
         color: white;
+      }
+
+      .header-section-two {
+        display: flex;
+        width: 70%;
+        margin: 0 auto;
+      }
+
+      .main-content {
+        flex: 1;
+      }
+
+      .main-content h1 {
+        font-family: "Roboto 900", "Arial";
+        color: #F9FAF8;
+        font-size: 2rem;
+        line-height: 0.9375;
+        margin-bottom: .1em;
+      }
+
+      .main-content p {
+        color: #e5e7eb;
+        margin-bottom: .4em;
+      }
+
+      .main-content button {
+        color: #F9FAF8;
+        background-color: #3882F6;
+        border: none;
+        padding: .3em 1em;
+        border-radius: 3px;
+      }
+
+      .image-container {
+        flex: 1;
+        height: 150px;
+      }
+
+      .image-container img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
       }
 
     </style>
@@ -44,7 +87,14 @@
         </ul>
       </div>
       <div class="header-section-two">
-        
+        <div class="main-content">
+          <h1>This website is awesome</h1>
+          <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+          <button>Sign up</button>
+        </div>
+        <div class="image-container">
+          <img src="assets/images/360_F_514204772_mT0EpTdZkScyiRPn2PInaKaqd88QGrzE.jpg" alt="Modern office with glass walls">
+        </div>
       </div>
     </div>
   </body>
