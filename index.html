@@ -1,25 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
     <title>Landing Page</title>
+
+    <style>
+      .header-container {
+        display: flex;
+        flex-direction: column;
+        background-color: #1F2037;
+        height: 200px;
+      }
+
+      .header-section-one {
+        display: flex;
+        height: 50px;
+        width: 70%;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .logo {
+        font-size: 1.2em;
+        font-family: "Roboto 500", "Arial";
+        color: white;
+      }
+
+    </style>
+
   </head>
   <body>
     <div class="header-container">
       <div class="header-section-one">
-        <div class="section-one-left">
-          <div class="header-logo">
-            Header Logo
-          </div>
-        </div>  
-        <div class="section-one-right">
-          <ul>
-            <li><a href="#">header link one</a></li>
-            <li><a href="#">header link two</a></li>
-            <li><a href="#">header link three</a></li>
-          </ul>
+        <div class="logo">
+          Header Logo
         </div>
+        <ul>
+          <li><a href="#">header link one</a></li>
+          <li><a href="#">header link two</a></li>
+          <li><a href="#">header link three</a></li>
+        </ul>
+      </div>
+      <div class="header-section-two">
+        
       </div>
     </div>
   </body>
