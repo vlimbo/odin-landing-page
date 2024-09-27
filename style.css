@@ -135,5 +135,110 @@ a {
   object-fit: cover;
 }
 
+.main-container h2 {
+  text-align: center;
+  font-family: "Roboto 900", "Arial";
+  color: #1F2937;
+  padding: 1em;
+}
+
+.illustration-container {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  padding-bottom: 3em;
+}
+
+.illustration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .5em;
+
+}
+
+.illustration-container img {
+  height: 110px;
+  width: 110px;
+  object-fit: cover;
+  border: 3px solid #3882F6;
+  border-radius: 8px;
+}
+
+.illustration-container p {
+  max-width: 115px;
+  text-align: center;
+  font-size: .8rem;
+  color: rgb(109, 109, 109);
+}
+
+.testemonial-container {
+  display: flex;
+  flex-direction: column;
+  background-color: lightblue;
+  align-items: center;
+  padding: 4em 0;
+}
+
+.testemonial {
+  font-family: "Roboto Italic", "Arial";
+  font-size: 1.5rem;
+  color: #1F2937;
+  max-width: 550px;
+}
+
+.customer {
+  display: flex;
+  justify-content: flex-end;
+  align-self: stretch;
+  width: 52%;
+  margin: 0 auto;
+  font-family: "Roboto 500", Arial;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3em 0;
+  color: #F9FAF8;
+}
+
+.call-to-action {
+  display: flex;
+  background-color: #3882F6;
+  gap: 4em;
+  align-items: center;
+  padding: 1em 3em;
+  border-radius: 4px;
+}
+
+.call-to-action h2 {
+  font-family: "Roboto 500", "Arial";
+  font-size: 1em;
+  margin-bottom: .1em;
+}
+
+.call-to-action p {
+  font-size: .8em;
+  color: #E5E7EB;
+}
+
+.call-to-action button {
+  color: #F9FAF8;
+  border: 1px solid #F9FAF8;
+  background-color: #3882F6;
+  padding: .2em 1em;
+  border-radius: 3px;
+}
+
+.copyright {
+  background-color: #1F2037;
+  color: #E5E7EB;
+  text-align: center;
+  padding: 2em;
+  font-size: .8rem;
+}
+
 
 
